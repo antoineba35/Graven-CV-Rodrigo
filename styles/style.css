@@ -1,0 +1,114 @@
+body {
+    background-color: grey;
+    color: white;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+/* css header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-image: url("../images/intro.jpg");
+
+    height: 400px;
+}
+header img {
+    width: 225px;
+    height: auto;
+}
+header h1 {
+    font-size: 3em;
+}
+
+/* css navbar */
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    margin: auto;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+
+/* css div presentation */
+div#presentation h2 {
+    text-align: center;
+    font-size: 2em;
+}
+div#presentation div.texte {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 1.25em;
+}
+
+/* css div conquetes */
+div#conquete {
+    background-image: url("../images/armurerie.jpg");
+    padding: 20px;
+}
+div#conquete h3 {
+    text-align: center;
+    font-size: 1.75em;
+}
+div#conquete ol {
+    margin : 20px;
+    font-size: 1.25em;
+}
+
+/* css div armes */
+div#armes {
+    text-align: center;
+}
+div#armes h3 {
+    font-size: 1.75em;
+    justify-content: center;
+    padding: 20px
+}
+div#armes table {
+    margin: auto;
+}
+div#armes td{
+    padding: 50px
+}
+div#armes tbody img {
+    height: 350px;
+    width: auto;
+}
+div#armes p {
+    font-size: 1.25em;
+}
+
+/* css footer */
+footer {
+    display : flex;
+    gap: 50px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2em;
+
+    background-color: #1D1D1D;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    font-size: 1.21em;
+}
